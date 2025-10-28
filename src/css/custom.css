@@ -7,25 +7,27 @@
  
 /* You can override the default Infima variables here. */
 :root {
-  --ifm-color-primary: #2e8555;
-  --ifm-color-primary-dark: #29784c;
-  --ifm-color-primary-darker: #277148;
-  --ifm-color-primary-darkest: #205d3b;
-  --ifm-color-primary-light: #33925d;
-  --ifm-color-primary-lighter: #359962;
-  --ifm-color-primary-lightest: #3cad6e;
+  /* Biru yang lebih redup dan gelap untuk light mode */
+  --ifm-color-primary: #2e5c85;
+  --ifm-color-primary-dark: #295278;
+  --ifm-color-primary-darker: #274d71;
+  --ifm-color-primary-darkest: #20405d;
+  --ifm-color-primary-light: #336692;
+  --ifm-color-primary-lighter: #356b99;
+  --ifm-color-primary-lightest: #3c77ad;
   --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
 [data-theme='dark'] {
-  --ifm-color-primary: #25c2a0;
-  --ifm-color-primary-dark: #21af90;
-  --ifm-color-primary-darker: #1fa588;
-  --ifm-color-primary-darkest: #1a8870;
-  --ifm-color-primary-light: #29d5b0;
-  --ifm-color-primary-lighter: #32d8b4;
-  --ifm-color-primary-lightest: #4fddbf;
+  /* Biru yang lebih cerah untuk dark mode agar kontras */
+  --ifm-color-primary: #4fa5e3;
+  --ifm-color-primary-dark: #3293da;
+  --ifm-color-primary-darker: #298cd7;
+  --ifm-color-primary-darkest: #257ec2;
+  --ifm-color-primary-light: #69b4e7;
+  --ifm-color-primary-lighter: #76baea;
+  --ifm-color-primary-lightest: #9ecbed;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
