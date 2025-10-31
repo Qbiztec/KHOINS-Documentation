@@ -3,11 +3,13 @@
  * bundles Infima by default. Infima is a CSS framework designed to
  * work well for content-centric websites.
  */
+html {
+  scroll-behavior: smooth;
+}
 
  
 /* You can override the default Infima variables here. */
 :root {
-  /* Biru yang lebih redup dan gelap untuk light mode */
   --ifm-color-primary: #2e5c85;
   --ifm-color-primary-dark: #295278;
   --ifm-color-primary-darker: #274d71;
@@ -21,7 +23,6 @@
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
 [data-theme='dark'] {
-  /* Biru yang lebih cerah untuk dark mode agar kontras */
   --ifm-color-primary: #4fa5e3;
   --ifm-color-primary-dark: #3293da;
   --ifm-color-primary-darker: #298cd7;
