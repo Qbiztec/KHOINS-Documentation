@@ -18,13 +18,13 @@ Endpoint ini digunakan untuk melihat metode top-up (payment gateway) apa saja ya
 
 ---
 
-### Endpoint
+## Contoh Request
 
 ```http
 http://182.23.3.230:11602/payment-gateway/method?memberid={{memberid}}&memberpass={{memberpass}}&memberpin={{memberpin}}
 ```
 
-## Respon Sukses
+### Respon Sukses
 
 ```json title="success"
 {
