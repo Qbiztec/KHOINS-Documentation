@@ -6,6 +6,11 @@ KHOINS menawarkan beberapa item Pascabayar :
 
 - [**Pulsa**](#pulsa) 
 - [**Token Listrik**](#token) 
+
+:::danger Peringatan!!!
+Response **Failed** bersifat **general** dan berlaku untuk seluruh jenis request Cek Produk & Produk. Cek [lebih lanjut](./intro.md#failed)
+:::
+
 ### Pulsa {#pulsa}
 
 Cek **satu** produk pulsa prabayar. Respons akan sama untuk semua produk pulsa.

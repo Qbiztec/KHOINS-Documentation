@@ -14,16 +14,17 @@ Endpoint ini digunakan untuk mengecek ketersediaan dan detail produk berdasarkan
 | `codes`      | Array (String) | (Opsional) Daftar kode produk yang ingin dicek.   |
 | `providers`  | Array (String) | (Opsional) Daftar kode provider yang ingin dicek. |
 
+:::tip
+
+- Untuk mendapatkan **semua produk** dari satu provider, isi `providers` dan kosongkan `codes`.
+- Untuk mendapatkan **detail produk spesifik**, isi `codes` dan `providers`.
+  :::
+
 ## Endpoint
 
 ```http
 http://182.23.3.230:11602/api/product
 ```
-
-:::tip
-- Untuk mendapatkan **semua produk** dari satu provider, isi `providers` dan kosongkan `codes`.
-- Untuk mendapatkan **detail produk spesifik**, isi `codes` dan `providers`.
-  :::
 
 ---
 
