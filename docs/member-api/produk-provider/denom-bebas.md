@@ -4,7 +4,7 @@ Denom bebas berarti nilai nominal (denominasi) yang bisa diisi tidak terbatas pa
 
 cek 1 produk Remittance
 
-**Contoh: Bi-Fast**
+**Contoh Request**
 
 ```json title="Request Body"
 {

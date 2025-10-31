@@ -14,8 +14,13 @@ Endpoint ini digunakan untuk mengecek ketersediaan dan detail produk berdasarkan
 | `codes`      | Array (String) | (Opsional) Daftar kode produk yang ingin dicek.   |
 | `providers`  | Array (String) | (Opsional) Daftar kode provider yang ingin dicek. |
 
-:::tip
+## Endpoint
 
+```http
+http://182.23.3.230:11602/api/product
+```
+
+:::tip
 - Untuk mendapatkan **semua produk** dari satu provider, isi `providers` dan kosongkan `codes`.
 - Untuk mendapatkan **detail produk spesifik**, isi `codes` dan `providers`.
   :::
@@ -23,8 +28,8 @@ Endpoint ini digunakan untuk mengecek ketersediaan dan detail produk berdasarkan
 ---
 
 ## FAILED {#failed}
-Jika request tidak menemukan `data`, response tetap mengembalikan status Success dengan data kosong (`[]`).
 
+Jika request tidak menemukan `data`, response tetap mengembalikan status Success dengan data kosong (`[]`).
 
 ```json title="Respond Failed"
 {
@@ -33,6 +38,7 @@ Jika request tidak menemukan `data`, response tetap mengembalikan status Success
   "data": []
 }
 ```
+
 :::danger Peringatan!!!
 Response **Failed** bersifat **general** dan berlaku untuk seluruh jenis request Cek Produk & provider.
 :::

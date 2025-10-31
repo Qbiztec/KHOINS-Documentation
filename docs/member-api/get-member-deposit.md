@@ -17,7 +17,7 @@ Endpoint ini digunakan untuk mendapatkan informasi saldo deposit member.
 
 ---
 
-## Request
+## Endpoint
 
 ```http
 http://182.23.3.230:11602/balance?memberid={{memberid}}&memberpin={{memberpin}}
