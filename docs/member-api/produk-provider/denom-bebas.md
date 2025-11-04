@@ -3,7 +3,7 @@
 Denom bebas berarti nilai nominal (denominasi) yang bisa diisi tidak terbatas pada pilihan tertentu, melainkan bebas ditentukan sendiri oleh pengguna, biasanya dalam batas minimum dan maksimum.
 
 :::danger Peringatan!!!
-Response **Failed** bersifat **general** dan berlaku untuk seluruh jenis request Cek Produk & Produk. Cek [lebih lanjut](./intro.md#failed)
+Response **Failed** bersifat **general** dan berlaku untuk seluruh jenis request Cek Produk & Provider. Cek [lebih lanjut](./intro.md#failed)
 :::
 
 **Contoh Request**
