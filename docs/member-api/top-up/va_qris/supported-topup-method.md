@@ -1,8 +1,8 @@
 ---
-sidebar_position: 3
+sidebar_position: 1
 ---
 
-# Get Metode Top-up
+# Get Metode Top-up {#getMetodeTopup}
 
 Endpoint ini digunakan untuk melihat metode top-up (payment gateway) apa saja yang didukung oleh akun Anda.
 

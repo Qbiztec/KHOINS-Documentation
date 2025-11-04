@@ -1,8 +1,5 @@
----
-sidebar_position: 4
----
 
-# Request Top-up (Bank Transfer)
+# Request Bank Transfer {#requestBank}
 
 Endpoint ini digunakan untuk membuat "tiket" top-up saldo via transfer bank manual (BCA).
 
