@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunkkhoins=globalThis.webpackChunkkhoins||[]).push([[1207],{811:o=>{o.exports=JSON.parse('{"metadata":{"permalink":"/KHOINS-Documentation/blog","page":1,"postsPerPage":10,"totalPages":1,"totalCount":4,"blogDescription":"Blog","blogTitle":"Blog"}}')}}]);
