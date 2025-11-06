@@ -24,6 +24,11 @@ Panggil endpoint [Get Metode Top-up](./supported-topup-method.md) untuk melihat 
 | `description` | String | Deskripsi top-up (WAJIB). Cth: `topup qris`.                           |
 
 ---
+:::note Mekanisme Respon Top-up
+Respon awal dari request Top-up (Bank Transfer/VA/QRIS) bersifat **pending**. Status pembayaran final akan dikirimkan ke URL Callback Anda.
+
+Lihat detailnya di [Top-up Callback](../../../callback/topup-callback.md).
+:::
 
 ## Contoh Request Virtual Account
 

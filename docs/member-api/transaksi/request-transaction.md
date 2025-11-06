@@ -38,29 +38,13 @@ http://182.23.3.230:11602?tujuan={{tujuan}}&trxid={{trxid}}&kodeproduk={{kodepro
 }
 ```
 
-seperti yang dijelaskan pada [halaman sebelumnya](./intro.md#alurAsync), untuk hasil respon Asychronus adalah **Pending**. Server KHOINS akan mengirimkan POST request berisi JSON ini ke URL [Callback]() Anda setelah transaksi selesai diproses.
+seperti yang dijelaskan pada [halaman sebelumnya](./intro.md#alurAsync), untuk hasil respon Asychronus adalah **Pending**. Server KHOINS akan mengirimkan POST request berisi JSON ini ke URL [Callback](../../callback/transaction-callback.md) Anda setelah transaksi selesai diproses.
 
-### Contoh Callback
+:::tip Alur Transaksi Prabayar
+Hasil akhir transaksi ini dikirim melalui **callback**. Lihat detailnya di [Pengenalan Callback KHOINS](../../callback/transaction-callback.md).
+:::
 
-    :::info
-    ID Transaksi Anda ada di dalam field **refid**.
-    :::
-
-```json title="callback success"
-{
-  "refid": "{{trxid}}",
-  "message": "{\"tujuan\":\"{{tujuan}}\",\"trxid\":\"{{trxid}},\"status\":\"Success\",\"message\":\"R#{{trxid}} [18134]>>>Transaksi \"{{kodeproduk}} ke \"{{tujuan}}\" Harga:93.955 SUKSES. SN: {{sn}}. Saldo: 1.449.645.223#@24/03 20:38:08\"}"
-}
-```
-
-```json title="callback failed"
-{
-  "tujuan": "{{tujuan}}",
-  "trxid": "{{trxid}}",
-  "status": "Gagal",
-  "message": "R#{{trxid}} Transaksi {{kodeproduk}} ke {{tujuan}} GAGAL. ket: Stok Kosong"
-}
-```
+---
 
 ## 2. synchronous
 

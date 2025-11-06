@@ -30,4 +30,10 @@ Alur kerja yang direkomendasikan untuk top-up adalah:
     - Jika memilih VA/QRIS, panggil [Request Top-up (VA & QRIS)](va_qris/rquest-va-qris.md).
 3.  Dapatkan detail pembayaran dari respon (Nomor VA, string QRIS, atau Nominal Unik).
 4.  Lakukan pembayaran sesuai instruksi.
-5.  Tunggu [Callback Top-up](../../callback/contoh-callback-topup) masuk ke server Anda, atau cek saldo Anda secara berkala menggunakan [Cek Saldo](../get-member-deposit.md).
+5.  Tunggu [Callback Top-up](../../callback/contoh-callback-topup) masuk ke server Anda, atau cek saldo Anda secara berkala menggunakan [Cek Saldo](../../callback/topup-callback.md).
+
+:::info Status Konfirmasi Top-up
+Semua permintaan Top-up (Bank Transfer dan Payment Gateway) bersifat *asynchronous*. Status akhir pembayaran (`Success`, `Expired`, atau `Gagal`) akan dikirimkan melalui *callback*.
+
+Silakan merujuk ke [Contoh Callback Top-up](../../callback/topup-callback.md) untuk format respon final.
+:::
