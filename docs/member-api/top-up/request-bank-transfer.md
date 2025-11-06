@@ -29,7 +29,7 @@ http://182.23.3.230:11602/ticket?memberid={{memberid}}&memberpass={{memberpass}}
   "memberid": "{{memberid}}",
   "amount": "10000",
   "status": "Pending",
-  "message": "Tiket Member {{memberid}} dengan jumlah 10.000 PENDING. ket: Silahkan transfer Rp. 10.123 (harus sama) sebelum 2024-09-23 15:51:30 ke : BCA 2711966937 a/n Global Bisnis Technologi"
+  "message": "Tiket Member {{memberid}} dengan jumlah 10.000 PENDING. ket: Silahkan transfer Rp. 10.123 sebelum 2024-09-23 15:51:30 ke : BCA 2711966937 a/n Global Bisnis Technologi"
 }
 ```
 

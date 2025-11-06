@@ -1,7 +1,8 @@
 {
   "label": "Callback",
-  "position": 3,
   "link": {
-    "type": "generated-index"
-  }
+    "type": "doc",
+    "id": "callback/intro"
+  },
+  "position": 4
 }
