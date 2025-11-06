@@ -7,7 +7,7 @@ sidebar_position: 2
 Endpoint ini digunakan untuk membuat permintaan top-up menggunakan metode _payment gateway_ seperti Virtual Account (VA) atau QRIS.
 
 :::tip
-Panggil endpoint [Get Metode Top-up](va_qris/supported-topup-method.md) untuk melihat metode apa saja (misal `VA_BNI`, `QRIS`) yang aktif untuk akun Anda.
+Panggil endpoint [Get Metode Top-up](./supported-topup-method.md) untuk melihat metode apa saja (misal `VA_BNI`, `QRIS`) yang aktif untuk akun Anda.
 :::
 
 ## `GET` /payment-gateway
