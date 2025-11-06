@@ -12,7 +12,7 @@ API KHOINS memiliki dua alur respon yang berbeda tergantung jenis produk:
 
 ### A. Synchronous
 
-Produk ***Synchorus***:
+Produk **_Synchorus_**:
 
 - **PASCABAYAR** (PLN, PDAM, GAS)
 - **DENOM BEBAS**
@@ -27,11 +27,13 @@ Untuk **produk Synchronus** terdapat perbedaan untuk melakukan transaksi. pelaja
 :::
 
 ### B. Alur Asynchronous {#alurAsync}
-Pproduk ***Asynchorus***:
+
+Pproduk **_Asynchorus_**:
 
 - **PRABAYAR** (Pulsa)
 
 #### Alur Synchronus:
+
 1.  **Request Anda:** Anda mengirim request `GET /`.
 2.  **Respon Pending:** Server KHOINS akan **segera** merespon dengan status `Pending`. Ini HANYA konfirmasi bahwa request diterima.
 3.  **Callback (Hasil Akhir):** Setelah transaksi selesai diproses (Sukses atau Gagal), server KHOINS akan mengirimkan **Callback** ke URL Anda dengan status final.
@@ -42,13 +44,11 @@ Pproduk ***Asynchorus***:
 
 Untuk produk **Synchronous**, Anda wajib menggunakan prefix `INQ` atau `PAY` pada `kodeproduk`.
 
-* **Inquiry (INQ):** Untuk cek tagihan atau validasi data (misal: cek nama pemilik rekening BI-FAST).
-* **Payment (PAY):** Untuk membayar tagihan atau mengeksekusi transfer dana.
+- **Request `INQ`:** Digunakan untuk **mengecek tagihan** atau **memvalidasi data** (misalnya, cek nama pemilik rekening).
+- **Request `PAY`:** Digunakan untuk **membayar tagihan** atau **mengeksekusi transfer** setelah Inquiry berhasil.
 
 **Contoh:**
 Misalkan `kodeproduk` untuk PERTAGAS adalah `GAS`.
 
-* **Untuk Cek Tagihan (Sync):** Gunakan `kodeproduk=INQGAS`
-* **Untuk Bayar Tagihan (Sync):** Gunakan `kodeproduk=PAYGAS`
-
-
+- **Untuk Cek Tagihan (Sync):** Gunakan `kodeproduk=INQGAS`
+- **Untuk Bayar Tagihan (Sync):** Gunakan `kodeproduk=PAYGAS`
