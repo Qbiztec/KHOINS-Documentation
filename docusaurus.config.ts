@@ -22,7 +22,7 @@ const config: Config = {
   // If you aren't using GitHub pages, you don't need these.
   organizationName: "Qbiztec", // Usually your GitHub org/user name.
   projectName: "KHOINS-Documentation", // Usually your repo name.
-  deployementBranch: 'khoins-pages',
+  deploymentBranch: 'khoins-pages',
   onBrokenLinks: "throw",
   trailingSlash: false,
 
