@@ -86,7 +86,9 @@ const config: Config = {
           position: "left",
           label: "Dokumentasi",
         },
-        { to: "/blog", label: "Blog", position: "left" },
+
+        // ini nav blog
+        // { to: "/blog", label: "Blog", position: "left" },
         // {
         //   href: "https://github.com/facebook/docusaurus",
         //   label: "GitHub",
