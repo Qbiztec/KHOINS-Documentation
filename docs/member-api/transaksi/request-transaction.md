@@ -38,10 +38,10 @@ http://182.23.3.230:11602?tujuan={{tujuan}}&trxid={{trxid}}&kodeproduk={{kodepro
 }
 ```
 
-seperti yang dijelaskan pada [halaman sebelumnya](./intro.md#alurAsync), untuk hasil respon Asychronus adalah **Pending**. Server KHOINS akan mengirimkan POST request berisi JSON ini ke URL [Callback](/docs/Callback/transaction-callback.md) Anda setelah transaksi selesai diproses.
+seperti yang dijelaskan pada [halaman sebelumnya](./intro.md#alurAsync), untuk hasil respon Asychronus adalah **Pending**. Server KHOINS akan mengirimkan POST request berisi JSON ini ke URL [Callback](/docs/callback/transaction-callback.md) Anda setelah transaksi selesai diproses.
 
 :::tip Alur Transaksi Prabayar
-Hasil akhir transaksi ini dikirim melalui **callback**. Lihat detailnya di [Pengenalan Callback KHOINS](/docs/Callback/transaction-callback.md).
+Hasil akhir transaksi ini dikirim melalui **callback**. Lihat detailnya di [Pengenalan Callback KHOINS](/docs/callback/transaction-callback.md).
 :::
 
 ---
