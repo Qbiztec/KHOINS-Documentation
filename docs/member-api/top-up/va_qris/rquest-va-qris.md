@@ -24,7 +24,8 @@ Panggil endpoint [Get Metode Top-up](./supported-topup-method.md) untuk melihat 
 | `description` | String | Deskripsi top-up (WAJIB). Cth: `topup qris`.                           |
 
 ---
-:::note Mekanisme Respon Top-up
+
+:::info Mekanisme Respon Top-up
 Respon awal dari request Top-up (Bank Transfer/VA/QRIS) bersifat **pending**. Status pembayaran final akan dikirimkan ke URL Callback Anda.
 
 Lihat detailnya di [Top-up Callback](/docs/Callback/topup-callback.md).
@@ -55,12 +56,6 @@ http://182.23.3.230:11602/payment-gateway?memberid={{memberid}}&memberpass={{mem
 }
 ```
 
-:::info
-`{{payment_url}}`: akan berisi link untuk pembayarannya
-
-`{{va_payment_data}}`: akan berisi nomor Virtual Accountnya
-:::
-
 ---
 
 ## Contoh Request QRis
@@ -87,8 +82,3 @@ http://182.23.3.230:11602/payment-gateway?memberid={{memberid}}&memberpass={{mem
   }
 }
 ```
-
-:::info
-`{{payment_url}}`: akan berisi link untuk menampilkan Barcode pembayaran
-:::
-
